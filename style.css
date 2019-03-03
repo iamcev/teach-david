@@ -1,1 +1,16 @@
+@keyframes flashy {
+    from {
+        color: red;
+        background: black;
+    }
+    to {
+        color: blue;
+        background: yellow;
+    }
+}
 
+#david {
+    animation-name: flashy;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
